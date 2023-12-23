@@ -1,14 +1,9 @@
 {
-  "name": "@mtblc/image-collage",
+  "name": "@mgoodnight/image-collage",
   "version": "0.1.0",
-  "description": "Turns an array of images into a photo collage", 
+  "description": "Turns an array of images into a photo collage",
   "main": "index.js",
-  "author": "Nicolás Gómez Espejo",
-  "homepage": "https://github.com/mtblc/image-collage",
-  "repository":  "git://github.com/mtblc/image-collage.git",
-  "bugs": {
-    "url": "https://github.com/mtblc/image-collage/issues"
-  },
+  "author": "Matt Goodnight",
   "license": "MIT",
   "scripts": {
     "test": "mocha --timeout 5000",
@@ -25,9 +20,7 @@
     "eslint": "6.1.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "mocha": "^6.2.2"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "mocha": "^6.2.2",
+    "typescript": "^5.3.3"
   }
 }
